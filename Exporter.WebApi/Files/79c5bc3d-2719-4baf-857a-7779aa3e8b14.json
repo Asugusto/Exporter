@@ -1,0 +1,495 @@
+[
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "sendToBridge",
+      "source": {
+        "type": "human"
+      },
+      "description": "Sent 2.20 ETH to a bridge.",
+      "protocol": {
+        "name": "Base"
+      },
+      "sent": [
+        {
+          "action": "bridged",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": "Base: Base Bridge",
+            "address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e"
+          },
+          "amount": "2.2",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        },
+        {
+          "action": "paidGas",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": null,
+            "address": null
+          },
+          "amount": "0.001350085051648779",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ],
+      "received": []
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x451f5dbe277efd668c7b8ba7f879e684647f675b4d4a311506b89eeadd36fa8e",
+      "fromAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "toAddress": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+      "blockNumber": 19172307,
+      "gas": 85946,
+      "gasPrice": 24365807931,
+      "transactionFee": {
+        "amount": "0.001350085051648779",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1707260291
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "admin",
+      "source": {
+        "type": "human"
+      },
+      "description": "Called function 'multicall' on contract 0x4976.",
+      "protocol": {
+        "name": "ENS"
+      },
+      "sent": [
+        {
+          "action": "paidGas",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": null,
+            "address": null
+          },
+          "amount": "0.002760010766120136",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ],
+      "received": [],
+      "contractAddress": "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41",
+      "functionCalled": "multicall"
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x2958b22adeaec65b4d86fa68a481f4d2d3e9123ba33559a31763fd04312b5ed5",
+      "fromAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "toAddress": "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41",
+      "blockNumber": 19029169,
+      "gas": 61266,
+      "gasPrice": 45049632196,
+      "transactionFee": {
+        "amount": "0.002760010766120136",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1705525619
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "admin",
+      "source": {
+        "type": "human"
+      },
+      "description": "Called function 'setAddr' on contract 0x4976.",
+      "protocol": {
+        "name": "ENS"
+      },
+      "sent": [
+        {
+          "action": "paidGas",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": null,
+            "address": null
+          },
+          "amount": "0.001672568833963236",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ],
+      "received": [],
+      "contractAddress": "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41",
+      "functionCalled": "setAddr"
+    },
+    "rawTransactionData": {
+      "transactionHash": "0xca15fd83c315f0d03d26d923519561996db05bf8189ca4ad63e9526727f709c3",
+      "fromAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "toAddress": "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41",
+      "blockNumber": 19029164,
+      "gas": 44462,
+      "gasPrice": 37617939678,
+      "transactionFee": {
+        "amount": "0.001672568833963236",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1705525559
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "admin",
+      "source": {
+        "type": "human"
+      },
+      "description": "Called function 'reclaim' on contract 0x57f1.",
+      "protocol": {
+        "name": "ENS"
+      },
+      "sent": [
+        {
+          "action": "paidGas",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": null,
+            "address": null
+          },
+          "amount": "0.001905291497493128",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ],
+      "received": [],
+      "contractAddress": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
+      "functionCalled": "reclaim"
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x45f72f97bcefc7a96da1b42baa33060ce2cb605e25439a1a4e0f69c14c6fad5b",
+      "fromAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "toAddress": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
+      "blockNumber": 19029155,
+      "gas": 45897,
+      "gasPrice": 41513236393,
+      "transactionFee": {
+        "amount": "0.001905291497493128",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1705525439
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "unclassified",
+      "source": {
+        "type": null
+      },
+      "description": "Called function 'execute' on contract 0xC2c8.",
+      "protocol": {
+        "name": "Reservoir"
+      },
+      "sent": [
+        {
+          "action": "sent",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": "Reservoir: ReservoirV6_0_1",
+            "address": "0xC2c862322E9c97D6244a3506655DA95F05246Fd8"
+          },
+          "amount": "0.375",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        },
+        {
+          "action": "paidGas",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": null,
+            "address": null
+          },
+          "amount": "0.005585842006935076",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ],
+      "received": [
+        {
+          "action": "received",
+          "amount": "1",
+          "nft": {
+            "name": "Unknown",
+            "id": "8892426946445088556465018533834825630842810993023277781142147882419506339488",
+            "symbol": "Unknown",
+            "address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85"
+          },
+          "from": {
+            "name": null,
+            "address": "0xCE020E4bcA3a181caCD771a4750E03F384779313"
+          },
+          "to": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          }
+        }
+      ]
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x24e3f5b0bdd638cbaaa5f80df91a8341de6c83d4cfbf4de3bfec5505cabaeb32",
+      "fromAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "toAddress": "0xC2c862322E9c97D6244a3506655DA95F05246Fd8",
+      "blockNumber": 19024769,
+      "gas": 304413,
+      "gasPrice": 29656083794,
+      "transactionFee": {
+        "amount": "0.005585842006935076",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1705472327
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "receiveToken",
+      "source": {
+        "type": "human"
+      },
+      "description": "Received 3.10 ETH.",
+      "protocol": {
+        "name": null
+      },
+      "sent": [],
+      "received": [
+        {
+          "action": "received",
+          "from": {
+            "name": null,
+            "address": "0x267be1C1D684F78cb4F6a176C4911b741E4Ffdc0"
+          },
+          "to": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "amount": "3.10503",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ]
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x7e18584520a61263d7f2bc57119b5670190604d1076b23961e100f208c9a3d54",
+      "fromAddress": "0x267be1C1D684F78cb4F6a176C4911b741E4Ffdc0",
+      "toAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "blockNumber": 19024736,
+      "gas": 21000,
+      "gasPrice": 31568280148,
+      "transactionFee": {
+        "amount": "0.000662933883108",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1705471931
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "unclassified",
+      "source": {
+        "type": null
+      },
+      "description": "Called function 'safeMint' on contract 0xCc41.",
+      "protocol": {
+        "name": null
+      },
+      "sent": [],
+      "received": [
+        {
+          "action": "received",
+          "amount": "1",
+          "nft": {
+            "name": "Google Cloud Discord Token",
+            "id": "588",
+            "symbol": "CW3GATE",
+            "address": "0xCc4177805aad9483ea2b2b814B82a83abe564023"
+          },
+          "from": {
+            "name": "Null address",
+            "address": "0x0000000000000000000000000000000000000000"
+          },
+          "to": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          }
+        }
+      ]
+    },
+    "rawTransactionData": {
+      "transactionHash": "0xaaefbaf7c8f2e421cf025e95de80e35b760b837cf871b129dc5e37290673def1",
+      "fromAddress": "0x41B7C67C39b5F41Ee42546DED8675C1aDCaD7EE4",
+      "toAddress": "0xCc4177805aad9483ea2b2b814B82a83abe564023",
+      "blockNumber": 18728903,
+      "gas": 112194,
+      "gasPrice": 58109510437,
+      "transactionFee": {
+        "amount": "0.006519538413968778",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1701885359
+    }
+  },
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "unclassified",
+      "source": {
+        "type": null
+      },
+      "description": "Called function 'safeMint' on contract 0xCc41.",
+      "protocol": {
+        "name": null
+      },
+      "sent": [],
+      "received": [
+        {
+          "action": "received",
+          "amount": "1",
+          "nft": {
+            "name": "Google Cloud Discord Token",
+            "id": "587",
+            "symbol": "CW3GATE",
+            "address": "0xCc4177805aad9483ea2b2b814B82a83abe564023"
+          },
+          "from": {
+            "name": "Null address",
+            "address": "0x0000000000000000000000000000000000000000"
+          },
+          "to": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          }
+        }
+      ]
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x735a444c562d2ed74b7bb25bc243183d9fc303fe1b02c3902ea09216bec49489",
+      "fromAddress": "0x41B7C67C39b5F41Ee42546DED8675C1aDCaD7EE4",
+      "toAddress": "0xCc4177805aad9483ea2b2b814B82a83abe564023",
+      "blockNumber": 18721960,
+      "gas": 129294,
+      "gasPrice": 74013765092,
+      "transactionFee": {
+        "amount": "0.009569535743805048",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1701801287
+    }
+  }
+]

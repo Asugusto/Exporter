@@ -1,0 +1,74 @@
+[
+  {
+    "txTypeVersion": 2,
+    "chain": "eth",
+    "accountAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+    "classificationData": {
+      "type": "sendToBridge",
+      "source": {
+        "type": "human"
+      },
+      "description": "Sent 2.20 ETH to a bridge.",
+      "protocol": {
+        "name": "Base"
+      },
+      "sent": [
+        {
+          "action": "bridged",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": "Base: Base Bridge",
+            "address": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e"
+          },
+          "amount": "2.2",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        },
+        {
+          "action": "paidGas",
+          "from": {
+            "name": "This wallet",
+            "address": "0x900FFE910c597011E4f8C367b0BB6F9634321aec"
+          },
+          "to": {
+            "name": null,
+            "address": null
+          },
+          "amount": "0.001350085051648779",
+          "token": {
+            "symbol": "ETH",
+            "name": "ETH",
+            "decimals": 18,
+            "address": "ETH"
+          }
+        }
+      ],
+      "received": []
+    },
+    "rawTransactionData": {
+      "transactionHash": "0x451f5dbe277efd668c7b8ba7f879e684647f675b4d4a311506b89eeadd36fa8e",
+      "fromAddress": "0x900FFE910c597011E4f8C367b0BB6F9634321aec",
+      "toAddress": "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
+      "blockNumber": 19172307,
+      "gas": 85946,
+      "gasPrice": 24365807931,
+      "transactionFee": {
+        "amount": "0.001350085051648779",
+        "token": {
+          "symbol": "ETH",
+          "name": "ETH",
+          "decimals": 18,
+          "address": "ETH"
+        }
+      },
+      "timestamp": 1707260291
+    }
+  }
+]
